@@ -10,5 +10,14 @@
  */
 public class Portatil extends Ordenador{
     String pulgadas;
+
+    public String getPulgadas() {
+        return pulgadas;
+    }
+
+    public Portatil(String pulgadas) {
+        this.pulgadas = pulgadas;
+    }
+    
     
 }
